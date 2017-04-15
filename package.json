@@ -1,6 +1,7 @@
 {
-  "name": "@core-framework/forms",
+  "name": "@core-framework/mongo",
   "version": "0.0.1",
+  "license": "MIT",
   "description": "Mongo utilities for Core Framework",
   "main": "./src/index.js",
   "files": [
