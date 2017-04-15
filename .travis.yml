@@ -1,5 +1,7 @@
 language: node_js
 node_js:
   - "7.7.4"
+services:
+- mongodb
 script: "npm run lint && npm run coverage"
 after_script: "npm install coveralls@2.10.0 && cat ./coverage/lcov.info | coveralls"
