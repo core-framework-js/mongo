@@ -1,0 +1,45 @@
+{
+  "name": "@core-framework/forms",
+  "version": "0.0.1",
+  "description": "Mongo utilities for Core Framework",
+  "main": "./src/index.js",
+  "files": [
+    "src/"
+  ],
+  "engines": {
+    "node": ">=7.7.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/core-framework-js/mongo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/core-framework-js/mongo/issues"
+  },
+  "homepage": "https://github.com/core-framework-js/mongo",
+  "keywords": [
+    "core",
+    "framework",
+    "core-framework",
+    "mongo",
+    "mongodb",
+    "nosql"
+  ],
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint .",
+    "test": "./node_modules/.bin/mocha test/**/*Test.js",
+    "coverage": "./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha -- test/**/*Test.js"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "generic-pool": "^3.1.7",
+    "mongodb": "^2.2.25"
+  },
+  "devDependencies": {
+    "chai": "^4.0.0-canary.1",
+    "deep-equal": "^1.0.1",
+    "eslint": "^3.19.0",
+    "istanbul": "next",
+    "mocha": "^3.2.0"
+  }
+}

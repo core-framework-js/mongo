@@ -1,0 +1,57 @@
+{
+  "extends": "eslint:recommended",
+  "parserOptions": {
+    "ecmaVersion": 2017,
+    "ecmaFeatures": {
+    }
+  },
+  "rules": {
+    "no-console": "off",
+    "valid-jsdoc": "error",
+    "block-scoped-var": "error",
+    "consistent-return": "error",
+    "eqeqeq": "error",
+    "no-loop-func": "error",
+    "no-new-func": "error",
+    "no-new-wrappers": "error",
+    "no-octal-escape": "error",
+    "radix": "error",
+    "wrap-iife": "error",
+    "global-require": "error",
+    "no-mixed-requires": "error",
+    "max-depth": [
+      "error",
+      4
+    ],
+    "max-len": [
+      "error",
+      140
+    ],
+    "max-params": [
+      "error",
+      4
+    ],
+    "new-cap": "error",
+    "new-parens": "error",
+    "newline-after-var": "error",
+    "newline-before-return": "error",
+    "no-array-constructor": "error",
+    "no-bitwise": "error",
+    "no-lonely-if": "error",
+    "no-nested-ternary": "error",
+    "semi": [
+      "error",
+      "always"
+    ],
+    "arrow-body-style": [
+      "error",
+      "always"
+    ],
+    "no-confusing-arrow": "error",
+    "prefer-spread": "error"
+  },
+  "env": {
+    "node": true,
+    "es6": true
+  }
+}
