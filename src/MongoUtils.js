@@ -332,7 +332,9 @@ class MongoUtils {
 		try {
 			result = await db.listCollections(filter, options).toArray();
 			this.pool.release(db);
-		} catch (e) {
+		} catch (e)
+			/* istanbul ignore next */
+		{
 			this.logError(e);
 			this.pool.release(db);
 			throw e;
